@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --primary-black: #303030;
+  --white: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+#principal{
+  width: 100%;
+  height: 100px;
+  background-color: var(--primary-black);
+  font-family: 'Inter';
+  display: flex;
+  justify-content: space-between;
+}
+
+#menu a{
+  color: var(--white);
+  font-size: 25px;
+  font-weight: 600;
+}
+
+/* ----------- POSICIONAMENTO ----------- */
+#menu {
+  display: flex;
+  width: 55%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#principal button{
+  height: 40px;
+  width: 70px;
+  margin-right: 5%;
+  align-self: center;
+}
