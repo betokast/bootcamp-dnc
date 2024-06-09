@@ -9,6 +9,9 @@
 :root{
   --primary-black: #303030;
   --white: #fff;
+  --primary-blue: #0c70f2;
+  --primary-gray: #bababa;
+  --secondary-gray: #ccc;
 }
 
 a {
@@ -22,6 +25,7 @@ a {
   font-family: 'Inter';
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid var(--primary-gray);
 }
 
 #menu a{
@@ -29,18 +33,32 @@ a {
   font-size: 25px;
   font-weight: 600;
 }
+#menu a:hover{
+  color: var(--secondary-gray);
+}
 
 /* ----------- POSICIONAMENTO ----------- */
 #menu {
   display: flex;
-  width: 55%;
+  width: 45%;
   justify-content: space-around;
   align-items: center;
-}
+  margin-left: 5%;
+  }
 
-#principal button{
-  height: 40px;
-  width: 70px;
-  margin-right: 5%;
-  align-self: center;
-}
+  #principal button{
+    height: 40px;
+    padding: 10px 20px;
+    margin-right: 5%;
+    align-self: center;
+    cursor: pointer;
+    background-color: var(--primary-blue);
+    border: none;
+    border-radius: 5px;
+    color: var(--white);
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 3px 2px 4px rgba(12, 112, 242, 0.25);
+  }
+/* --------------------------------------- */
