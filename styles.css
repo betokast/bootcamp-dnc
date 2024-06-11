@@ -232,11 +232,19 @@ footer .endereco {
 }
 
 footer .linha-footer2 {
-  text-align: center;
-  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 30px;
   font-family: var(--fonte-padrao);
 }
 
 footer .linha-footer2 a {
   color: var(--white);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+footer .linha-footer2 a:first-child {
+  border-right: 3px solid var(--white);
 }
