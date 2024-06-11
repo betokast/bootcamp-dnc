@@ -26,6 +26,10 @@ a {
   text-decoration: none;
 }
 
+ul li {
+  list-style: none;
+}
+
 #principal{
   width: 100%;
   height: 100px;
@@ -170,4 +174,69 @@ form input[type="submit"] {
 
 form input[type="submit"]:hover{
   background-color: var(--hover-blue);
+}
+
+/* ----------- FOOTER ----------- */
+footer {
+  background-color: var(--primary-blue);
+}
+
+footer .linha-footer1 {
+  display: flex;
+  justify-content: space-around;
+  color: var(--white);
+  font-family: var(--fonte-padrao);
+  padding: 50px 0;
+}
+
+footer .linha-footer1 .endereco {
+  align-self: center;
+}
+
+footer nav {
+  display: flex;
+  flex-direction: column;
+}
+
+footer h5 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 800;
+  background-color: var(--primary-black);
+  border-radius: 10px;
+
+  padding: 10px;
+}
+
+footer ul li {
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+footer ul li a {
+  color: var(--white);
+}
+
+footer ul li a:hover,
+footer .linha-footer2 a:hover {
+  color: var(--secondary-gray);
+}
+
+footer .endereco {
+  font-weight: 600;
+  font-size: 18px;
+  width: 30%;
+  text-align: center;
+}
+
+footer .linha-footer2 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: var(--fonte-padrao);
+}
+
+footer .linha-footer2 a {
+  color: var(--white);
 }
